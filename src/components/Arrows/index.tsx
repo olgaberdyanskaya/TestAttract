@@ -27,7 +27,7 @@ const ArrowButton: React.FC<ArrowButtonProps> = ({ direction, onClick }) => {
   return (
     <button
       onClick={handleClick}
-      className="p-2 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors focus:outline-none active:ring-2 active:ring-blue-500"
+      className="p-2 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors focus:outline-none active:ring-2 active:ring-red-500"
       aria-label={`${direction} arrow`}
     >
       <svg
