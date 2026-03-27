@@ -113,7 +113,7 @@ const AttractIcon3D: React.FC = () => {
     <div style={{ width: '100vw', height: '100vh', background: '#050b1a' }}>
       <Canvas
         shadows
-        camera={{ position: [0, 0, 3.5], fov: 45 }}
+        camera={{ position: [0, 0, 3.5], fov: 55 }}
         gl={{ antialias: false }}
         dpr={[1, 2]}
       >
@@ -157,7 +157,7 @@ const AttractIcon3D: React.FC = () => {
           </group>
 
           {/* Red accent shape */}
-          <group position={[-0.5, 0.5, 0]} rotation={[0, 3.15, -0.05]}>
+          <group position={[-0.15, 0.18, 0]} rotation={[0, 3.15, -0.05]}>
             <ExtrudedPath
               pathData={redPath}
               color="#F01159"
